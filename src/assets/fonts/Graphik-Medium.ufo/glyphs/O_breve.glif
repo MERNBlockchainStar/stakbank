@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Obreve" format="2">
+  <advance width="814"/>
+  <unicode hex="014E"/>
+  <outline>
+    <contour>
+      <point x="405" y="761" type="curve" smooth="yes"/>
+      <point x="322" y="761"/>
+      <point x="264" y="818"/>
+      <point x="260" y="901" type="curve"/>
+      <point x="345" y="901" type="line"/>
+      <point x="350" y="867"/>
+      <point x="369" y="845"/>
+      <point x="405" y="845" type="curve" smooth="yes"/>
+      <point x="441" y="845"/>
+      <point x="462" y="866"/>
+      <point x="468" y="901" type="curve"/>
+      <point x="552" y="901" type="line"/>
+      <point x="547" y="818"/>
+      <point x="486" y="761"/>
+    </contour>
+    <contour>
+      <point x="410" y="97" type="curve" smooth="yes"/>
+      <point x="545" y="97"/>
+      <point x="630" y="200"/>
+      <point x="630" y="355" type="curve" smooth="yes"/>
+      <point x="630" y="363" type="line" smooth="yes"/>
+      <point x="630" y="510"/>
+      <point x="548" y="619"/>
+      <point x="408" y="619" type="curve" smooth="yes"/>
+      <point x="268" y="619"/>
+      <point x="185" y="516"/>
+      <point x="185" y="362" type="curve" smooth="yes"/>
+      <point x="185" y="354" type="line" smooth="yes"/>
+      <point x="185" y="198"/>
+      <point x="280" y="97"/>
+    </contour>
+    <contour>
+      <point x="408" y="-10" type="curve" smooth="yes"/>
+      <point x="189" y="-10"/>
+      <point x="46" y="147"/>
+      <point x="46" y="353" type="curve" smooth="yes"/>
+      <point x="46" y="361" type="line" smooth="yes"/>
+      <point x="46" y="570"/>
+      <point x="196" y="725"/>
+      <point x="408" y="725" type="curve" smooth="yes"/>
+      <point x="621" y="725"/>
+      <point x="768" y="574"/>
+      <point x="768" y="364" type="curve" smooth="yes"/>
+      <point x="768" y="356" type="line" smooth="yes"/>
+      <point x="768" y="147"/>
+      <point x="625" y="-10"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>-10</integer>
+            <key>width</key>
+            <integer>107</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>619</integer>
+            <key>width</key>
+            <integer>106</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>761</integer>
+            <key>width</key>
+            <integer>84</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>46</integer>
+            <key>width</key>
+            <integer>139</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>630</integer>
+            <key>width</key>
+            <integer>138</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

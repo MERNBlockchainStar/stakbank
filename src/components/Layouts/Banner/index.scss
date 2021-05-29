@@ -1,0 +1,121 @@
+.banner {
+  background: #0F123F 0% 0% no-repeat padding-box;
+  background-image: url('../../../assets/images/bg.png');
+  background-size: contain;
+  background-position: 60%;
+  border-radius: 10px;
+  opacity: 1;
+  display: inline-flex;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 29px;
+
+  .bannerLeft {
+    width: calc(100% - 335px);
+    padding: 27px 53px;
+
+    h5 {
+      text-align: left;
+      letter-spacing: 0px;
+      color: #FFFFFF;
+      opacity: 1;
+      font-family: 'Graphik-Regular';
+      font-size: 18px;
+      line-height: 24px;
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      text-align: left;
+      letter-spacing: 0px;
+      color: #FFFFFF;
+      opacity: 1;
+      font-family: 'Graphik-Bold';
+      font-size: 28px;
+      line-height: 37px;
+      margin: 0;
+      display: inline-block;
+      width: 400px;
+      white-space: nowrap;
+      overflow: hidden !important;
+      text-overflow: ellipsis;
+    }
+  }
+
+  .bannerRight {
+    padding: 35px 50px;
+
+    .btnConnect {
+      text-align: left;
+      letter-spacing: 0px;
+      color: #FFFFFF;
+      opacity: 1;
+      font-family: 'Graphik-Semibold';
+      font-size: 18px;
+      line-height: 24px;
+      padding: 20px 40px;
+      height: 65px;
+      background: #5957D5 0% 0% no-repeat padding-box;
+      border-radius: 10px;
+      opacity: 1;
+      border: none;
+    }
+
+    .btnConnected {
+      img {
+        margin-right: 17px;
+      }
+    }
+  }
+}
+
+
+@media(max-width: 991px) {
+  .banner {
+    display: inline-block;
+
+    .bannerLeft {
+      width: 100%;
+      text-align: center;
+
+      h5 {
+        text-align: center;
+      }
+    }
+
+    .bannerRight {
+      width: 100%;
+      padding-top: 0;
+      text-align: center;
+    }
+  }
+}
+
+@media(max-width: 767px) and (min-width: 576px) {}
+
+@media(max-width: 575px) {
+  .banner {
+    .bannerLeft {
+      padding: 20px 20px 0 20px;
+
+      h3 {
+        font-size: 24px;
+        text-align: center;
+      }
+
+      h5 {
+        font-size: 14px;
+        margin-bottom: 0;
+      }
+    }
+
+    .bannerRight {
+      padding: 0 20px 20px;
+      .btnConnect{
+        height: 45px;
+        font-size: 14px;
+        padding: 10px 20px;
+      }
+    }
+  }
+}

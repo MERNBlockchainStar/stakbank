@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="four.sup" format="2">
+  <advance width="318"/>
+  <outline>
+    <contour>
+      <point x="189" y="431" type="line"/>
+      <point x="189" y="500" type="line"/>
+      <point x="17" y="500" type="line"/>
+      <point x="17" y="524" type="line"/>
+      <point x="170" y="773" type="line"/>
+      <point x="253" y="773" type="line"/>
+      <point x="253" y="549" type="line"/>
+      <point x="298" y="549" type="line"/>
+      <point x="298" y="500" type="line"/>
+      <point x="253" y="500" type="line"/>
+      <point x="253" y="431" type="line"/>
+    </contour>
+    <contour>
+      <point x="89" y="549" type="line"/>
+      <point x="190" y="549" type="line"/>
+      <point x="190" y="722" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>500</integer>
+            <key>width</key>
+            <integer>49</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>722</integer>
+            <key>width</key>
+            <integer>51</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>190</integer>
+            <key>width</key>
+            <integer>63</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="lessequal.tab" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="463" y="117" type="line"/>
+      <point x="111" y="327" type="line"/>
+      <point x="113" y="340" type="line"/>
+      <point x="529" y="538" type="line"/>
+      <point x="521" y="484" type="line"/>
+      <point x="192" y="331" type="line"/>
+      <point x="471" y="167" type="line"/>
+    </contour>
+    <contour>
+      <point x="61" y="0" type="line"/>
+      <point x="68" y="45" type="line"/>
+      <point x="452" y="45" type="line"/>
+      <point x="444" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>45</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>61</integer>
+            <key>width</key>
+            <integer>468</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

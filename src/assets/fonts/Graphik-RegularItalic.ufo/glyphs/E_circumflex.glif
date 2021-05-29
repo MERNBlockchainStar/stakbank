@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ecircumflex" format="2">
+  <advance width="572"/>
+  <unicode hex="00CA"/>
+  <outline>
+    <contour>
+      <point x="48" y="0" type="line"/>
+      <point x="161" y="715" type="line"/>
+      <point x="574" y="715" type="line"/>
+      <point x="562" y="644" type="line"/>
+      <point x="236" y="644" type="line"/>
+      <point x="198" y="401" type="line"/>
+      <point x="464" y="401" type="line"/>
+      <point x="453" y="330" type="line"/>
+      <point x="187" y="330" type="line"/>
+      <point x="146" y="71" type="line"/>
+      <point x="494" y="71" type="line"/>
+      <point x="483" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="222" y="771" type="line"/>
+      <point x="346" y="898" type="line"/>
+      <point x="421" y="898" type="line"/>
+      <point x="512" y="771" type="line"/>
+      <point x="454" y="771" type="line"/>
+      <point x="377" y="829" type="line"/>
+      <point x="284" y="771" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>71</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>330</integer>
+            <key>width</key>
+            <integer>71</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>644</integer>
+            <key>width</key>
+            <integer>71</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>771</integer>
+            <key>width</key>
+            <integer>127</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>48</integer>
+            <key>width</key>
+            <integer>526</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="greater.tab" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="130" y="586" type="line"/>
+      <point x="532" y="335" type="line"/>
+      <point x="526" y="299" type="line"/>
+      <point x="47" y="60" type="line"/>
+      <point x="73" y="227" type="line"/>
+      <point x="299" y="324" type="line"/>
+      <point x="105" y="432" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>60</integer>
+            <key>width</key>
+            <integer>526</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>47</integer>
+            <key>width</key>
+            <integer>485</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

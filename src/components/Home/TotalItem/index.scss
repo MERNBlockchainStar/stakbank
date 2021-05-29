@@ -1,0 +1,116 @@
+.totalItem {
+  width: 100%;
+  box-sizing: border-box;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 4px 1px #0F123F08;
+  border: 1px solid #E0E0E4EB;
+  border-radius: 10px;
+  opacity: 1;
+  padding: 32px 30px;
+  display: inline-flex;
+  align-items: center;
+
+  .viewIcon {
+    width: 65px;
+    height: 65px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #5957D5;
+    opacity: 1;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 30px;
+
+  }
+
+  .detail {
+    h5 {
+      text-align: left;
+      font-family: 'Graphik-MediumItalic';
+      font-size: 16px;
+      line-height: 21px;
+      letter-spacing: 0px;
+      color: #17163180;
+      opacity: 1;
+      margin-bottom: 17px;
+    }
+
+    h3 {
+      text-align: left;
+      font-family: 'Graphik-Bold';
+      font-size: 28px;
+      line-height: 27px;
+      letter-spacing: 0px;
+      color: #0F123F;
+      margin: 0;
+
+      span {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+.active {
+  background: #5957D5 0% 0% no-repeat padding-box;
+  box-shadow: 0px 4px 1px #5957D50F;
+  border: 1px solid #E0E0E4;
+  border-radius: 10px;
+  opacity: 1;
+
+  .viewIcon {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #5957D5;
+    opacity: 1;
+  }
+
+  .detail {
+    h5 {
+      color: #FFFFFF80;
+    }
+
+    h3 {
+      color: #FFFFFF;
+    }
+  }
+}
+
+
+@media(max-width: 1024px) and (min-width: 992px) {
+  .totalItem {
+    padding: 26px;
+
+    .viewIcon {
+      width: 50px;
+      height: 50px;
+      margin-right: 15px;
+
+      img {
+        width: 50%;
+      }
+    }
+
+    .detail {
+      h5 {
+        font-size: 14px;
+        margin-bottom: 10px;
+      }
+
+      h3 {
+        font-size: 22px;
+      }
+    }
+  }
+}
+
+@media(max-width: 991px) {
+  .totalItem {
+    margin-bottom: 15px;
+  }
+}
+
+@media(max-width: 767px) and (min-width: 576px) {}
+
+@media(max-width: 575px) and (min-width: 481px) {}

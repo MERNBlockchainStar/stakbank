@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="greaterequal.tab" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="59" y="0" type="line"/>
+      <point x="74" y="100" type="line"/>
+      <point x="482" y="100" type="line"/>
+      <point x="467" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="153" y="599" type="line"/>
+      <point x="526" y="377" type="line"/>
+      <point x="521" y="348" type="line"/>
+      <point x="79" y="134" type="line"/>
+      <point x="100" y="268" type="line"/>
+      <point x="316" y="367" type="line"/>
+      <point x="132" y="471" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>100</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>59</integer>
+            <key>width</key>
+            <integer>467</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

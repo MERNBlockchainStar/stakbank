@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="less.tab" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="488" y="59" type="line"/>
+      <point x="86" y="311" type="line"/>
+      <point x="91" y="346" type="line"/>
+      <point x="571" y="585" type="line"/>
+      <point x="545" y="419" type="line"/>
+      <point x="319" y="322" type="line"/>
+      <point x="512" y="214" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>59</integer>
+            <key>width</key>
+            <integer>526</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>86</integer>
+            <key>width</key>
+            <integer>485</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

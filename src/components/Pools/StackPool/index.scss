@@ -1,0 +1,181 @@
+.stackPool {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 4px 1px #0F123F08;
+  border: 1px solid #E0E0E4EB;
+  border-radius: 10px;
+  opacity: 1;
+
+  .ant-card-head {
+    padding: 0;
+
+    .ant-card-head-title {
+      text-align: left;
+      font-family: 'Graphik-Semibold';
+      font-size: 16px;
+      line-height: 21px;
+      letter-spacing: 0px;
+      color: #0F123F;
+      text-transform: uppercase;
+      opacity: 1;
+      padding: 33px 40px;
+    }
+  }
+
+  .ant-card-body {
+    padding: 0;
+
+    .detail {
+      .viewProgress {
+        width: 237px;
+        margin: 50px auto 65px;
+
+        .progressInfo {
+          width: 170px;
+          height: 170px;
+          background: #FFFFFF 0% 0% no-repeat padding-box;
+          box-shadow: 0px 3px 28px #0F123F0A;
+          border: 1px solid #1716310D;
+          opacity: 1;
+          border-radius: 50%;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+
+          h2 {
+            text-align: left;
+            font-family: 'Graphik-Bold';
+            font-size: 24px;
+            line-height: 31px;
+            letter-spacing: 0px;
+            color: #0F123F;
+            opacity: 1;
+            margin-bottom: 14px;
+          }
+
+          h3 {
+            text-align: left;
+            font-family: 'Graphik-Regular';
+            font-size: 18px;
+            line-height: 24px;
+            letter-spacing: 0px;
+            color: #17163180;
+            opacity: 1;
+            margin: 0;
+          }
+        }
+
+        .CircularProgressbar {
+          .CircularProgressbar-trail {
+            stroke: #e6e6e6;
+          }
+
+          .CircularProgressbar-path {
+            stroke: #5957D5;
+          }
+        }
+      }
+    }
+
+    .rewards {
+      .rewardItem {
+        text-align: center;
+        position: relative;
+
+        h4 {
+          text-align: center;
+          font-family: 'Graphik-Regular';
+          font-size: 16px;
+          line-height: 21px;
+          letter-spacing: 0px;
+          color: #17163180;
+          opacity: 1;
+          margin-bottom: 13px;
+        }
+
+        h2 {
+          text-align: center;
+          font-family: 'Graphik-Bold';
+          font-size: 24px;
+          line-height: 31px;
+          letter-spacing: 0px;
+          color: #0F123F;
+          opacity: 1;
+          margin: 0;
+        }
+      }
+
+      .boderRight {
+        &::after {
+          content: '';
+          width: 1px;
+          height: 30px;
+          border-right: 1px dashed #1716313E;
+          position: absolute;
+          top: 20px;
+          right: 0;
+        }
+      }
+    }
+
+    .actions {
+      padding: 27px 40px;
+      border-top: 1px solid #E9E9EC;
+      margin-top: 50px;
+
+      .btnCompound {
+        border-radius: 10px;
+        opacity: 1;
+        font-family: 'Graphik-Semibold';
+        font-size: 16px;
+        line-height: 21px;
+        letter-spacing: 0px;
+        opacity: 1;
+        height: 58px;
+        border: 1px solid #1716312E;
+        color: #0F123F;
+
+        &:disabled {
+          color: #17163180;
+          border: 1px solid #1716312E;
+        }
+      }
+
+      .btnClaim {
+        font-family: 'Graphik-Semibold';
+        font-size: 16px;
+        line-height: 21px;
+        letter-spacing: 0px;
+        opacity: 1;
+        border-radius: 10px;
+        opacity: 1;
+        height: 58px;
+        border: none;
+        background: #5957D5 0% 0% no-repeat padding-box;
+
+        &:disabled {
+          background: #17163180 0% 0% no-repeat padding-box;
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: 1024px) and (min-width: 992px) {}
+
+@media(max-width: 991px) and (min-width: 768px) {}
+
+@media(max-width: 767px) and (min-width: 576px) {}
+
+@media(max-width: 575px) {
+  .stackPool{
+    margin-bottom: 15px;
+    .ant-card-body{
+      .rewards{
+        .rewardItem{
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ncaron" format="2">
+  <advance width="701"/>
+  <unicode hex="0147"/>
+  <outline>
+    <contour>
+      <point x="53" y="0" type="line"/>
+      <point x="166" y="715" type="line"/>
+      <point x="195" y="715" type="line"/>
+      <point x="548" y="22" type="line"/>
+      <point x="658" y="715" type="line"/>
+      <point x="677" y="715" type="line"/>
+      <point x="564" y="0" type="line"/>
+      <point x="539" y="0" type="line"/>
+      <point x="182" y="700" type="line"/>
+      <point x="72" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="579" y="888" type="line"/>
+      <point x="452" y="771" type="line"/>
+      <point x="432" y="771" type="line"/>
+      <point x="335" y="888" type="line"/>
+      <point x="354" y="888" type="line"/>
+      <point x="443" y="786" type="line"/>
+      <point x="558" y="888" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>22</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>700</integer>
+            <key>width</key>
+            <integer>15</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>771</integer>
+            <key>width</key>
+            <integer>15</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>53</integer>
+            <key>width</key>
+            <integer>624</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

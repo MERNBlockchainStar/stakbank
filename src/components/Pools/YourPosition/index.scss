@@ -1,0 +1,164 @@
+.yourPosition {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 4px 1px #0F123F08;
+  border: 1px solid #E0E0E4EB;
+  border-radius: 10px;
+  opacity: 1;
+
+  h1 {
+    text-align: left;
+    font-family: 'Graphik-Semibold';
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0px;
+    color: #0F123F;
+    text-transform: uppercase;
+    opacity: 1;
+    padding: 33px 30px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .positionContent {
+    padding: 30px;
+
+    .positionItem {
+      padding-bottom: 30px;
+      margin-bottom: 30px;
+      border-bottom: 1px dashed #1716313E;
+      display: inline-flex;
+      align-items: center;
+      width: 100%;
+
+      h5 {
+        text-align: left;
+        font-family: 'Graphik-Medium';
+        font-size: 16px;
+        line-height: 21px;
+        letter-spacing: 0px;
+        color: #17163180;
+        opacity: 1;
+        margin-bottom: 13px;
+
+        svg {
+          margin-left: 12px;
+          background: #1716310A 0% 0% no-repeat padding-box;
+          border-radius: 50%;
+        }
+      }
+
+      h2 {
+        text-align: left;
+        font-family: 'Graphik-Bold';
+        font-size: 24px;
+        line-height: 31px;
+        letter-spacing: 0px;
+        color: #171631;
+        opacity: 1;
+        margin: 0;
+      }
+
+      .positionIcon {
+        width: 65px;
+        height: 65px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #5957D5;
+        opacity: 1;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-right: 31px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+
+  .btnApprove {
+    margin-top: 85px;
+    text-align: center;
+    font-family: 'Graphik-Semibold';
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    border-radius: 10px;
+    opacity: 1;
+    border: none;
+    height: 58px;
+    background: #5957D5 0% 0% no-repeat padding-box;
+
+    &:disabled {
+      background: #17163180 0% 0% no-repeat padding-box;
+    }
+  }
+
+  .actions {
+    .btnStake {
+      text-align: center;
+      font-family: 'Graphik-Semibold';
+      font-size: 16px;
+      line-height: 21px;
+      letter-spacing: 0px;
+      color: #FFFFFF;
+      opacity: 1;
+      border-radius: 10px;
+      opacity: 1;
+      border: none;
+      height: 58px;
+      background: #5957D5 0% 0% no-repeat padding-box;
+      margin-bottom: 12px;
+    }
+
+    .btnUnstake {
+      border: 1px solid #E0E0E3;
+      border-radius: 10px;
+      opacity: 1;
+      font-family: 'Graphik-Semibold';
+      font-size: 16px;
+      line-height: 21px;
+      letter-spacing: 0px;
+      color: #0F123F;
+      opacity: 1;
+      height: 58px;
+    }
+  }
+}
+
+@media(max-width: 1024px) and (min-width: 992px) {
+  .yourPosition {
+    .positionContent {
+      padding: 24px;
+
+      .positionItem {
+        .positionIcon {
+          width: 60px;
+          height: 60px;
+          margin-right: 24px;
+        }
+
+        h5 {
+          font-size: 14px;
+          margin-bottom: 10px;
+        }
+
+        h2 {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+
+@media(max-width: 991px) and (min-width: 768px) {
+  .yourPosition{
+    margin-top: 30px;
+    .btnApprove{
+      margin-top: 30px;
+    }
+  }
+}
+
+@media(max-width: 767px) and (min-width: 576px) {}
+
+@media(max-width: 575px) {}

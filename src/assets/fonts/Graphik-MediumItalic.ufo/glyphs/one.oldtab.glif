@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="one.oldtab" format="2">
+  <advance width="600"/>
+  <outline>
+    <contour>
+      <point x="255" y="0" type="line"/>
+      <point x="332" y="490" type="line"/>
+      <point x="118" y="357" type="line"/>
+      <point x="136" y="472" type="line"/>
+      <point x="366" y="619" type="line"/>
+      <point x="479" y="619" type="line"/>
+      <point x="381" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>118</integer>
+            <key>width</key>
+            <integer>361</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

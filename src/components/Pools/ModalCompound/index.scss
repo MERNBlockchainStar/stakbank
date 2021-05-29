@@ -1,0 +1,107 @@
+.modalCompound {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  border-radius: 10px;
+  opacity: 1;
+  padding: 0;
+  overflow: hidden;
+  width: 555px !important;
+
+  .ant-modal-header {
+    padding: 30px 35px 26px;
+
+    .ant-modal-title {
+      text-align: left;
+      font-family: 'Graphik-Semibold';
+      font-size: 16px;
+      line-height: 21px;
+      letter-spacing: 0px;
+      color: #17163180;
+      text-transform: uppercase;
+      opacity: 1;
+    }
+  }
+
+  .ant-modal-body {
+    padding: 35px;
+  }
+
+  .transfer {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #17163129;
+    border-radius: 6px;
+    opacity: 1;
+    display: inline-flex;
+    width: 100%;
+
+    .boxItem {
+      padding: 33px 30px;
+      width: 50%;
+      position: relative;
+
+      h5 {
+        font-family: 'Graphik-Medium';
+        font-size: 16px;
+        line-height: 21px;
+        letter-spacing: 0px;
+        color: #17163180;
+        opacity: 1;
+      }
+
+      h2 {
+        font-family: 'Graphik-Bold';
+        font-size: 20px;
+        line-height: 27px;
+        letter-spacing: 0px;
+        color: #171631;
+        opacity: 1;
+        margin: 0;
+      }
+
+      .iconNext {
+        width: 53px;
+        height: 53px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border: 1px solid #D9D9DE;
+        opacity: 1;
+        border-radius: 50%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        z-index: 2000;
+        right: -26px;
+        top: 34px;
+      }
+    }
+
+    .boxLeft {
+      border-right: 1px solid #D9D9DE;
+    }
+
+    .boxRight {
+      padding-left: 45px;
+    }
+  }
+
+  .btnStake {
+    margin-top: 30px;
+    background: #5957D5 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+    height: 60px;
+    font-family: 'Graphik-Semibold';
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    border: none;
+    opacity: 1;
+  }
+}
+
+@media(max-width: 575px) {
+  .modalCompound {
+    width: 90% !important;
+  }
+}

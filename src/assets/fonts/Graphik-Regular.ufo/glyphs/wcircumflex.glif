@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="wcircumflex" format="2">
+  <advance width="794"/>
+  <unicode hex="0175"/>
+  <outline>
+    <contour>
+      <point x="189" y="0" type="line"/>
+      <point x="28" y="523" type="line"/>
+      <point x="118" y="523" type="line"/>
+      <point x="240" y="102" type="line"/>
+      <point x="367" y="523" type="line"/>
+      <point x="439" y="523" type="line"/>
+      <point x="558" y="102" type="line"/>
+      <point x="681" y="523" type="line"/>
+      <point x="766" y="523" type="line"/>
+      <point x="603" y="0" type="line"/>
+      <point x="511" y="0" type="line"/>
+      <point x="402" y="392" type="line"/>
+      <point x="280" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="252" y="613" type="line"/>
+      <point x="360" y="757" type="line"/>
+      <point x="435" y="757" type="line"/>
+      <point x="542" y="613" type="line"/>
+      <point x="481" y="613" type="line"/>
+      <point x="396" y="688" type="line"/>
+      <point x="311" y="613" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>102</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>503</integer>
+            <key>width</key>
+            <integer>20</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>688</integer>
+            <key>width</key>
+            <integer>69</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>28</integer>
+            <key>width</key>
+            <integer>738</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

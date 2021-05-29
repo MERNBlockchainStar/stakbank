@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Tcommaaccent" format="2">
+  <advance width="648"/>
+  <unicode hex="0162"/>
+  <outline>
+    <contour>
+      <point x="148" y="0" type="line"/>
+      <point x="228" y="511" type="line"/>
+      <point x="55" y="511" type="line"/>
+      <point x="88" y="715" type="line"/>
+      <point x="702" y="715" type="line"/>
+      <point x="669" y="511" type="line"/>
+      <point x="496" y="511" type="line"/>
+      <point x="416" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="271" y="-236" type="line"/>
+      <point x="147" y="-209" type="line"/>
+      <point x="188" y="-36" type="line"/>
+      <point x="385" y="-36" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>511</integer>
+            <key>width</key>
+            <integer>204</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>55</integer>
+            <key>width</key>
+            <integer>647</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

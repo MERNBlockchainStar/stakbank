@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Hbar" format="2">
+  <advance width="702"/>
+  <unicode hex="0126"/>
+  <outline>
+    <contour>
+      <point x="46" y="531" type="line"/>
+      <point x="49" y="547" type="line"/>
+      <point x="139" y="547" type="line"/>
+      <point x="166" y="715" type="line"/>
+      <point x="185" y="715" type="line"/>
+      <point x="158" y="547" type="line"/>
+      <point x="632" y="547" type="line"/>
+      <point x="659" y="715" type="line"/>
+      <point x="678" y="715" type="line"/>
+      <point x="651" y="547" type="line"/>
+      <point x="743" y="547" type="line"/>
+      <point x="740" y="531" type="line"/>
+      <point x="649" y="531" type="line"/>
+      <point x="565" y="0" type="line"/>
+      <point x="546" y="0" type="line"/>
+      <point x="602" y="354" type="line"/>
+      <point x="128" y="354" type="line"/>
+      <point x="72" y="0" type="line"/>
+      <point x="53" y="0" type="line"/>
+      <point x="137" y="531" type="line"/>
+    </contour>
+    <contour>
+      <point x="130" y="371" type="line"/>
+      <point x="604" y="371" type="line"/>
+      <point x="629" y="531" type="line"/>
+      <point x="155" y="531" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>0</integer>
+            <key>width</key>
+            <integer>21</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>354</integer>
+            <key>width</key>
+            <integer>17</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>531</integer>
+            <key>width</key>
+            <integer>16</integer>
+          </dict>
+          <dict>
+            <key>position</key>
+            <integer>531</integer>
+            <key>width</key>
+            <integer>184</integer>
+          </dict>
+        </array>
+        <key>vhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>46</integer>
+            <key>width</key>
+            <integer>697</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
